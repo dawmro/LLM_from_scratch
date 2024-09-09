@@ -22,3 +22,13 @@ cuda activate
 pip install matplotlib numpy pylzma ipkernel jupyter
 pip install torch --index-url https://download.pytorch.org/whl/cu118
 ```
+
+4. Install a new kernel for Jupyter Notebook 
+```
+python -m ipykernel install --user --name=cuda --display-name "cuda-gpt"
+```
+
+5. Start Jupyter Notebook
+```
+jupyter notebook
+```
