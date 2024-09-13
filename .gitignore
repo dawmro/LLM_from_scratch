@@ -1,4 +1,7 @@
-/cuda
+cuda/
+openwebtext/
+/output_train.txt
+/output_val.txt
 
 # Videos
 *.avi
