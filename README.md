@@ -32,3 +32,7 @@ python -m ipykernel install --user --name=cuda --display-name "cuda-gpt"
 ```
 jupyter notebook
 ```
+
+
+https://github.com/user-attachments/assets/6e35fa4d-d4a5-46bc-8711-a81d7c2fedd0
+
