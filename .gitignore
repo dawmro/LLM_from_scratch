@@ -1,7 +1,12 @@
 cuda/
 openwebtext/
+openwebtext2/
+/100BT
+/checkpoints
 /output_train.txt
 /output_val.txt
+/output_v10
+
 
 # Videos
 *.avi
