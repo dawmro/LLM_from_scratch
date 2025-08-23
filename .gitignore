@@ -1,20 +1,25 @@
 cuda/
+
+datasets/
+outputs/
+logs/
+
 openwebtext/
 openwebtext2/
-/100BT
-/checkpoints
-/output_train.txt
-/output_val.txt
-/output_v6
-/output_v7
-/output_v8
-/output_v10
-/output_v11
-/output_v12
-/output_v14
-/output_deepseek_v1
-/output_deepdeek_v2
-/output_deepdeek_v3
+100BT/
+checkpoints/
+output_train.txt
+output_val.txt
+output_v6/
+output_v7/
+output_v8/
+output_v10/
+output_v11/
+output_v12/
+output_v14/
+output_deepseek_v1/
+output_deepdeek_v2/
+output_deepdeek_v3/
 
 
 # Videos
