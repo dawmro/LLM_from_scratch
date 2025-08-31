@@ -83,6 +83,14 @@ Prompt: "I like apple juice - I drink it"
 → "I like apple juice - I drink it for about 30 minutes or even 1/20 minutes. In fact it was so common, so if it would be melted and the calories for me. And for me it was a pretty cool product"
 ```
 
+> *Sample generation from `gpt-v17.ipynb` after 100k steps:*
+
+Note: gpt-v17 has been trained on 100BT subset of fineweb-edu dataset using infinite streaming form *.paraquet files.
+```text
+Prompt: "I like apple juice - I drink it"
+→ "I like apple juice - I drink it every night, especially at weekends and holidays. I have no doubt that it contains the highest levels of polyphenols.
+But, as I have learned, polyphenols are actually a natural substance found naturally in fruits, berries and vegetables like berries"
+```
 
 
 ## 🚧 Next Steps
