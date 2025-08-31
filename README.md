@@ -88,7 +88,8 @@ Prompt: "I like apple juice - I drink it"
 Note: gpt-v17 has been trained on 100BT subset of fineweb-edu dataset using infinite streaming form *.paraquet files.
 ```text
 Prompt: "I like apple juice - I drink it"
-→ "I like apple juice - I drink it daily to keep track of blood pressure, especially if you are at home or if I get sick and then drink to check my urine to be sure I am up to my normal range."
+→ "I like apple juice - I drink it every night, especially at weekends and holidays. I have no doubt that it contains the highest levels of polyphenols.
+But, as I have learned, polyphenols are actually a natural substance found naturally in fruits, berries and vegetables like berries"
 ```
 
 
