@@ -816,7 +816,8 @@ def main():
     workers_per_rank = min(max(1, cpus // max(1, world_size)), 4)  # tune; start small on Windows
     # On Windows default to 0 workers to avoid spawn/persistent worker edge cases
     if os.name == "nt":
-        workers_per_rank = 0    
+        workers_per_rank = 0  
+        logger.info(f"os.name == nt")
     prefetch = 2                                    # tune with GPU util
                   
 
@@ -860,7 +861,7 @@ def main():
         num_workers=workers_per_rank,
         pin_memory=pin_memory,
         persistent_workers=(workers_per_rank > 0),
-        prefetch_factor=prefetch if workers_per_rank > 0 else 2,
+        prefetch_factor=prefetch if workers_per_rank > 0 else None,
         worker_init_fn=seed_worker,
         drop_last=True
     )
@@ -871,7 +872,7 @@ def main():
         num_workers=max(0, workers_per_rank // 2),
         pin_memory=pin_memory,
         persistent_workers=(max(0, workers_per_rank // 2) > 0),
-        prefetch_factor=prefetch if workers_per_rank > 0 else 2,
+        prefetch_factor=prefetch if workers_per_rank > 0 else None,
         worker_init_fn=seed_worker,
         drop_last=True
     )
