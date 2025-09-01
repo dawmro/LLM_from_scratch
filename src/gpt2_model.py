@@ -1,4 +1,7 @@
-
+import torch
+import torch.nn as nn
+from typing import Optional, Tuple
+from torch.nn import functional as F
 
 
 class MultiHeadAttention(nn.Module):
